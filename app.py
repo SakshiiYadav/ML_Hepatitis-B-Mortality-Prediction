@@ -266,7 +266,6 @@ def main():
                             st.json(pred_probability_score)
 
                     if st.checkbox("Interpret"):
-			from IPython.core.display import display, HTML
                         if model_choice == "KNN":
                             loaded_model = load_model("models/knn_hepB_model.pkl")
 
