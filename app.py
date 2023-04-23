@@ -14,6 +14,7 @@ import numpy as np
 import os
 import joblib
 # passlib,bcrypt
+from IPython.core.display import display, HTML
 
 # Data Viz Pkgs
 import matplotlib.pyplot as plt
