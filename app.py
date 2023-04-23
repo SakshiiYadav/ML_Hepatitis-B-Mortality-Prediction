@@ -150,8 +150,8 @@ def main():
             with file_path.open("rb") as file:
                 hashed_passwords = pickle.load(file)
 
-            authenticator = stauth.Authenticate(names, usernames, hashed_passwords,
-                                                "sales_dashboard", "abcdef")
+            authenticator = stauth.authenticate(names, usernames, hashed_passwords,
+                                                "sales_dashboard", "abcdef",cookie_expiry_days=30)
 
             name, authentication_status, username = authenticator.login("Login", "main")
 
