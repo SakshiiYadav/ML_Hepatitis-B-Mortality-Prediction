@@ -88,7 +88,7 @@ descriptive_message_temp = """
 
 
 names = ["Sakshi Yadav", "Anushka Tawde"]
-usernames = ["syadav", "atawde"]
+usernames = ["sYadav", "aTawde"]
 
 feature_names_best = ['age', 'sex', 'steroid', 'antivirals', 'fatigue', 'spiders', 'ascites', 'varices', 'bilirubin',
                       'alk_phosphate', 'sgot', 'albumin', 'protime', 'histology']
