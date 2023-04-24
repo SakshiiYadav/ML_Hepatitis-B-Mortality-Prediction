@@ -42,7 +42,7 @@ result_temp2 = """
 	<img src="https://www.w3schools.com/howto/{}" alt="Avatar" style="vertical-align: middle;float:left;width: 50px;height: 50px;border-radius: 50%;" >
 	<br/>
 	<br/>	
-	<p style="text-align:justify;color:white">{} % probalibilty that Patient {}s</p>
+	<p style="text-align:justify;color:white">{} % probabilty that Patient {}s</p>
 	</div>
 	"""
 
